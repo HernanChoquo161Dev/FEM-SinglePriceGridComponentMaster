@@ -8,43 +8,47 @@
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <!--main page-->
+  <main class="main-page">
+    <!--component-->
+    <div class="single-price">
+      <!--first element-->
+      <div class="single-price__box-text">
+        <h1 class="single-price__tittle">Join our community</h1>
+        <h3 class="single-price__sub-tittle">30-day, hassle-free money back guarantee</h3>
+        <p class="single-price__text">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+      <!--second element-->
+      <div class="single-price__box-offer">
+        <!--subscription section-->
+        <div class="single-price__box-subscription">
+          <h1 class="single-price__tittle-subscription">Monthly Subscription</h1>
+          <p class="single-price__price"><span>&dollar;29</span> <span>per month</span></p>
+          <p class="single-price__price-text">Full access for less than &dollar;1 a day</p>
+          <button class="btn-sign-up">Sign Up</button>
+        </div>
+        <!--company section-->
+        <div class="single-price__box-company">
+          <h1 class="single-price__tittle-company">Why Us</h1>
+          <ul class="single-price__services-list">
+            <li class="single-price__item">Tutorials by industry experts</li>
+            <li class="single-price__item">Peer &amp; expert code review</li>
+            <li class="single-price__item">Coding exercises</li>
+            <li class="single-price__item">Access to our GitHub repos</li>
+            <li class="single-price__item">Community forum</li>
+            <li class="single-price__item">Flashcard decks</li>
+            <li class="single-price__item">New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
